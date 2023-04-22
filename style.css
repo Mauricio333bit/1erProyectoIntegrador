@@ -1,0 +1,89 @@
+nav div .navbar {
+  background-color: #353a40 !important;
+}
+nav div .navbar-nav a {
+  color: gray;
+}
+
+nav > div a nav div .navbar-nav a:hover {
+  color: rgba (155, 193, 220);
+}
+
+nav div .navbar-nav .active {
+  color: rgb(255, 255, 255) !important;
+}
+
+.banner__img--shadow {
+  filter: drop-shadow(2px 4px 6px black);
+  -webkit-filter: drop-shadow(2px 4px 6px black);
+}
+
+.banner__btn--compraTickets {
+  background-color: #29a744 !important;
+}
+
+#cards .card {
+  border: none !important;
+}
+
+.section__div--honoluluBsAs {
+  background-color: #353a40 !important;
+}
+
+.form__div--datosPersonales {
+  width: 48% !important;
+}
+
+.formularios__btnEnviar {
+  background: #96c93e !important;
+}
+
+.footer--shadow {
+  filter: drop-shadow(2px 4px 6px black);
+  -webkit-filter: drop-shadow(2px 4px 6px black);
+}
+
+.footer--background {
+  background: rgb(28, 54, 67);
+  background: linear-gradient(
+    58deg,
+    rgba(28, 54, 67, 1) 0%,
+    rgba(30, 83, 114, 1) 100%
+  );
+}
+
+footer a {
+  color: lightgrey;
+  text-decoration: none;
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+}
+
+footer a:hover {
+  color: rgb(108, 131, 162);
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  -ms-transition: 0.3s all;
+  -o-transition: 0.3s all;
+}
+
+/* Banner */
+
+.banner {
+  height: 75vh;
+}
+
+.banner > img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .form__div--datosPersonales {
+    width: 100% !important;
+  }
+}
