@@ -26,7 +26,12 @@ nav div .navbar-nav .active {
 #cards .card {
   border: none !important;
 }
-
+.sectHonolulu__img {
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./imagenes/honolulu.jpg);
+}
 .section__div--honoluluBsAs {
   background-color: #353a40 !important;
 }
