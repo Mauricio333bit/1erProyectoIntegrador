@@ -12,12 +12,13 @@ nav > div a nav div .navbar-nav a:hover {
 nav div .navbar-nav .active {
   color: rgb(255, 255, 255) !important;
 }
-
-.banner__img--shadow {
-  filter: drop-shadow(2px 4px 6px black);
-  -webkit-filter: drop-shadow(2px 4px 6px black);
+.banner {
+  background-position: center;
+  background-size: cover;
+  background-image: url(./imagenes/ba1.jpg);
+  background-color: rgb(50, 50, 50);
+  background-blend-mode: soft-light;
 }
-
 .banner__btn--compraTickets {
   background-color: #29a744 !important;
 }
@@ -28,6 +29,11 @@ nav div .navbar-nav .active {
 
 .section__div--honoluluBsAs {
   background-color: #353a40 !important;
+}
+.formulario__span--charlaIgnite {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-style: dotted;
 }
 
 .form__div--datosPersonales {
