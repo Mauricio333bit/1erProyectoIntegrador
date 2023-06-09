@@ -1,4 +1,5 @@
-export function valida(input) {
+//UTILS
+function valida(input) {
   const tipoDeInput = input.dataset.tipo;
 
   if (input.validity.valid) {
@@ -47,3 +48,23 @@ function mostrarMensajeDeError(tipoDeInput, input) {
   });
   return mensaje;
 }
+let resumeTemplate = (name, quantity, category) => `
+  <div class="d-flex justify-content-between"><div class="d-flex align-items-center flex-column "><h5 class="card-title">${
+    name.value
+  }</h5>
+                    <p class="card-text">Solo falta que pagues tu compra:</p>
+                    <p class="card-text">x${quantity.value} tickets</p>
+                    <p class="card-text">Por un valor de $ ${totalValue}</p>
+                    <p class="card-text"> ${infoDesc(category)}  </p>
+  
+                    <p class="card-text">EL TOTAL A PAGAR ES: $ ${finalValue} </p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center col-4  "><button
+                    id="btn_pago"
+                    class="btn bg-primary"
+                  >
+                    Pagar
+                  </button>
+                  </div>
+                  </div>
+                    `;
